@@ -1,0 +1,31 @@
+{
+	"moduleDescription" :
+	{
+		"title" : 		"Flexplot Module",
+		"description":	"First module upgrade",
+		"version": 		1,
+		"author":		"Dustin Fife",
+		"maintainer":	"Dustin Fife",
+		"website":		"quantpsych.net",
+		"license":		"GPL (>= 2)"
+	},
+	
+	"requiredPackages": [],
+	
+	"ribbonEntries":
+	[
+		{
+			"title": 	"Flexplot",
+			"icon":		"flexplot.svg",
+			"analyses":
+			[
+				{
+					"title": 	"Flexplot",
+					"qml":		"Flexplot.qml",
+					"function":	"Flexplot"
+				}
+				
+			]
+		}
+	]
+}
